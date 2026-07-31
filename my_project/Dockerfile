@@ -21,3 +21,5 @@ COPY . /app/
 
 # Expose Gunicorn port
 EXPOSE 8000
+
+CMD ["python", "app.py"]
